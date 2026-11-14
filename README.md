@@ -32,7 +32,7 @@ I launched Maltego Graph 4.14.0, created a new graph and added the `networkwalks
 
 The captured graph shows the domain connected to the email entity `info@networkwalks.com`. The transform output reports that it completed and returned an entity. This section records only what is visible in my screenshot.
 
-![Maltego graph](evidence/18-maltego-graph.png)
+![Maltego graph](evidence/maltego-graph.jpg)
 
 ## W2-PM5: Zenmap network scanning
 
@@ -47,7 +47,7 @@ I ran `ipconfig /all` in PowerShell. The relevant adapter is **Ethernet 2**, ide
 | Physical address | `0A-00-27-00-00-0F` |
 | DHCP | Disabled |
 
-![ipconfig output](evidence/17-ipconfig.png)
+![ipconfig output](evidence/ipconfig.jpg)
 
 ### 2. Zenmap scan results
 
@@ -65,7 +65,7 @@ Zenmap reports **256 IP addresses scanned** and **1 host up**, with a scan durat
 192.168.56.1
 ```
 
-![Zenmap scan output](evidence/16-zenmap-output.png)
+![Zenmap scan output](evidence/zenmap-output.jpg)
 
 ### 3. Open TCP ports
 
@@ -76,7 +76,7 @@ Zenmap reports **256 IP addresses scanned** and **1 host up**, with a scan durat
 | 445 | TCP | Open | microsoft-ds |
 | 5357 | TCP | Open | wsdapi |
 
-![Zenmap ports and hosts](evidence/15-zenmap-ports.png)
+![Zenmap ports and hosts](evidence/zenmap-ports.jpg)
 
 ### 4. Host details and topology
 
@@ -92,11 +92,15 @@ Zenmap's Host Details tab reports:
 
 The topology view displays `192.168.56.1` connected to `localhost`.
 
-![Zenmap host details](evidence/14-zenmap-host-details.png)
+![Zenmap host details](evidence/zenmap-host-details.jpg)
 
-![Zenmap topology](evidence/13-zenmap-topology.png)
+![Zenmap topology](evidence/zenmap-topology.jpg)
 
-![Zenmap scans](evidence/12-zenmap-scans.png)
+![Zenmap scan list](evidence/zenmap-scan-list.jpg)
+
+The browser completion page also shows that the Zenmap Network Scanning Practice Lab was completed with a score of 100%.
+
+![Lab completion](evidence/lab-completion.jpg)
 
 ## Task answers
 
