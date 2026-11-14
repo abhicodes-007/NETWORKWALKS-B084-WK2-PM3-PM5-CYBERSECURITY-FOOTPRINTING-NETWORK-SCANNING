@@ -5,7 +5,7 @@
 **GitHub:** [abhicodes-007](https://github.com/abhicodes-007)  
 **Email:** abhishekdeepak002@gmail.com
 
-This repository documents my Week 2 practical work using Maltego and Zenmap. The findings below are based on my captured lab screenshots and displayed command output.
+This repository documents my Week 2 practical work using Maltego and Zenmap. The findings below are based on my captured lab screenshots and displayed command output. The screenshots are packaged in the companion evidence ZIP; upload its included `evidence/` folder to the repository root to make the embedded image links render.
 
 ## Modules
 
